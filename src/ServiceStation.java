@@ -1,6 +1,6 @@
 public class ServiceStation {
 
-    public void check(Bicycle bicycle) {
+      public void check(Bicycle bicycle) {
         bicycle.cervice();
     }
 
@@ -11,6 +11,5 @@ public class ServiceStation {
     public void check(Truck truck) {
         truck.cervice();
     }
-
 }
 

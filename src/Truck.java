@@ -5,13 +5,13 @@ public class Truck extends TransportVehicle implements UpdateTyres, WithEngine, 
     }
 
     public void cervice() {
-        updateTyre();
+        updateTyres();
         checkEngine();
         checkTrailer();
     }
 
     @Override
-    public void updateTyre() {//переопределение метода updateService
+    public void updateTyres() {//переопределение метода updateTyres
         System.out.println("Обслуживаем " + getModelName());
         for (int i = 0; i < getWheelsCount(); i++) {
             System.out.println("Меняем покрышку на грузовике");

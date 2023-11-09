@@ -23,6 +23,7 @@ public abstract class TransportVehicle {
         this.wheelsCount = wheelsCount;
     }
 
+
     @Override
     public String toString() {
         return modelName +" "+ wheelsCount;

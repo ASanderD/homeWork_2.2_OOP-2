@@ -10,7 +10,9 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("bicycle2", 2);
 
 
+
         ServiceStation station = new ServiceStation();
+
 
         station.check(car);
         station.check(car2);
